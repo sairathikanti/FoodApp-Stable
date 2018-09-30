@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- css styles -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+	<div class="topnav">
+		<a>Feeding Poor From Web</a>
+	</div>
+	<div>
+		<img src="images/67678924_c759f2bb24.jpg">
+		<div class="login">
+			<form action="login.jsp">
+				<input style="width: 35%;" type="text" name="email"
+					placeholder="Username" required> <input style="width: 35%;"
+					type="password" name="psw" placeholder="Password" required>
+				<input id="button1" type="submit" value="Login">
+			</form>
+			<div class="registration">
+				<form action="dashboard.jsp">
+					<div>
+						<h2>Create a new account</h2>
+						<p>It's free and always will be.</p>
+						<br>
+						<hr>
+						<label><b>Email</b></label><br> <input type="email"
+							placeholder="Enter Email" name="email" required><br>
+						<label><b>Password</b></label><br> <input type="password"
+							placeholder="Enter Password" name="psw" required><br>
+						<label><b>Mobile Number</b></label><br> <input type="text"
+							placeholder="Mobile Number" name="mobileno" pattern="[0-9]{10}"
+							title="Enter a valid mobile number"><br> <input
+							required type="radio" name="userType" value="provider">
+						Event Organizer <input required type="radio" name="userType"
+							value="seeker"> Trust Owner<br>
+						<button style="margin-top: 20px" id="button" type="submit"
+							class="signupbtn">Sign Up</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
